@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
+This is coding challenge 
+* Ruby version - ruby 2.5.7
 
 * Database initialization
 
-* How to run the test suite
+API:
+1. /api/v1/trends/list_of_repos
+	Accepted params: language
+	It will list the Repository details which are using language given in params. 
+	The API reponse contains owner and github url of repository.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+2. /api/v1/trends/no_of_repos
+	Accepted params: language
+	It will number the Repositories which are using language given in params. 
